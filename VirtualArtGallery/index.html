@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Art Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Art Gallery</h1>
+        <nav>
+            <input type="text" id="search-bar" placeholder="Search artworks...">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+            <button id="slideshow-toggle">Start Slideshow</button>
+        </nav>
+    </header>
+    <main>
+        <section id="gallery">
+            <img src="images/pic1.jpg" alt="Artwork 1">
+            <img src="images/pic2.jpg" alt="Artwork 2">
+            <img src="images/pic3.jpg" alt="Artwork 3">
+            <!-- Add more images here -->
+        </section>
+    </main>
+
+    <!-- Lightbox for artwork details -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+        <div id="artwork-details">
+            <p><strong>Artist:</strong> <span id="artist-name"></span></p>
+            <p><strong>Year:</strong> <span id="year"></span></p>
+            <p><strong>Description:</strong> <span id="description"></span></p>
+        </div>
+    </div>
+
+    <!-- Background music -->
+    <audio id="background-music" loop>
+        <source src="teja.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="music-toggle">Play Music</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by [TejaEtha] | &copy; 2025 Virtual Art Gallery</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
