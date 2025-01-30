@@ -1,5 +1,4 @@
 # VirtualArtGallery
-# Virtual Art Gallery
 
 ## 🎨 Project Description
 
