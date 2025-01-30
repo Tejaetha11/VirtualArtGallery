@@ -52,11 +52,6 @@ The **Virtual Art Gallery** is a web-based platform built using **HTML, CSS, and
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
 
 ## 📸 Project Output
 Here is a preview of the Virtual Art Gallery:
