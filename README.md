@@ -33,7 +33,7 @@ The **Virtual Art Gallery** is a web-based platform built using **HTML, CSS, and
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/your-username/Virtual-Art-Gallery.git
+   git clone https://github.com/Tejaetha11/VirtualArtGallery.git
    ```
 2. **Navigate to the Project Folder:**
    ```sh
