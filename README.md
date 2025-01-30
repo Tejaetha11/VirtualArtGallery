@@ -61,7 +61,7 @@ This project is licensed under the **MIT License**.
 ## 📸 Project Output
 Here is a preview of the Virtual Art Gallery:
 
-![Virtual Art Gallery Preview](images/output.png)
+![Virtual Art Gallery Preview](output.png)
 
 
 Made with ❤️ by [Teja Eeta]
